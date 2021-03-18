@@ -8,6 +8,6 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "dockerfile-ast": "0.0.13"
+    "dockerfile-ast": "0.2.0"
   }
 }

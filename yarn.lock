@@ -2,7 +2,14 @@
 # yarn lockfile v1
 
 
-docker-file-parser@1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/docker-file-parser/-/docker-file-parser-1.0.4.tgz#723156944d6ee52e4f0e45c1a9eb7b36124d0dd9"
-  integrity sha512-djh3R7KXkEPm80PXK9xbz8bCfEFuU11Tmf5l9IXKdjBPx91/cOqhwOwtOq6s35B8TqrwY6L4xLphmyYmJT0ZXw==
+dockerfile-ast@0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/dockerfile-ast/-/dockerfile-ast-0.2.0.tgz#13cc4a6fe3aea30a4104622b30f49a0fe3a5c038"
+  integrity sha512-iQyp12k1A4tF3sEfLAq2wfFPKdpoiGTJeuiu2Y1bdEqIZu0DfSSL2zm0fk7a/UHeQkngnYaRRGuON+C+2LO1Fw==
+  dependencies:
+    vscode-languageserver-types "^3.16.0"
+
+vscode-languageserver-types@^3.16.0:
+  version "3.16.0"
+  resolved "https://registry.yarnpkg.com/vscode-languageserver-types/-/vscode-languageserver-types-3.16.0.tgz#ecf393fc121ec6974b2da3efb3155644c514e247"
+  integrity sha512-k8luDIWJWyenLc5ToFQQMaSrqCHiLwyKPHKPQZ5zz21vM+vIVUSvsRpcbiECH4WR88K2XZqc4ScRcZ7nk/jbeA==
